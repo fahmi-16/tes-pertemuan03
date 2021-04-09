@@ -1,5 +1,7 @@
 package string;
 
+import java.util.Locale;
+
 public class OperasiString {
     public static void main(String[] args) {
         String kota = "Banjarbaru";
@@ -9,5 +11,10 @@ public class OperasiString {
         char[] uniskaChar = { 'U','N','I','S','K','A' };
         String uniskaString = new String(uniskaChar);
         System.out.println(uniskaString);
+
+        System.out.println(kota.toUpperCase());
+        System.out.println(kota.toLowerCase());
+        System.out.println(kota.substring(6));
+        System.out.println(kota.substring(0,6));
     }
 }
