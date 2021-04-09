@@ -2,7 +2,7 @@ package operator;
 
 public class IfElse {
     public static void main(String[] args) {
-        double totalBelanja = 25000;
+        double totalBelanja = 50000;
         double uangDiDompet = 50000;
 
         if(uangDiDompet<totalBelanja){
